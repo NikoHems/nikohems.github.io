@@ -1096,3 +1096,33 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+/*--------------------------------------------------------------
+# Education
+--------------------------------------------------------------*/
+
+/* Custom styles for education section */
+.education-box {
+  background-color: #09203a; /* Set your desired background color */
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.education-box h5,
+.education-box h6,
+.education-box p,
+.education-box ul,
+.education-box li {
+  color: #fff; /* Ensure text color is white for readability */
+}
+
+.education-box ul {
+  padding-left: 20px;
+}
+
+.education-box li {
+  list-style-type: disc;
+}
+
