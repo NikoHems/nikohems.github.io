@@ -596,10 +596,11 @@ section .container {
   position: relative;
   background: #fff;
   border-radius: 10px;
+  background: #09203a; /* Adjust this to the color you need */
 }
 
 .testimonial-item p {
-  color: #777;
+  color: #fff; /* Ensure the text color is readable against the background */
 }
 
 .testimonial-item .testimonial-img {
@@ -616,19 +617,25 @@ section .container {
   font-size: 18px;
   font-weight: 700;
   margin: 10px 0 5px 0;
-  color: #555;
+  color: #fff;
 }
 
 .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #ccc;
   margin: 0;
 }
 
 .quote-icon-left, .quote-icon-right {
-  color: #f1f1f1;
+  color: #fff;
   font-size: 26px;
 }
+
+/* Ensure the quotes have some opacity to stand out less */
+.quote-icon-left, .quote-icon-right {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 
 
 /*--------------------------------------------------------------
