@@ -589,6 +589,48 @@ section .container {
   }
 }
 
+.testimonial-item {
+  padding: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.testimonial-item p {
+  color: #777;
+}
+
+.testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -45px;
+}
+
+.testimonial-item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0 5px 0;
+  color: #555;
+}
+
+.testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.quote-icon-left, .quote-icon-right {
+  color: #f1f1f1;
+  font-size: 26px;
+}
+
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
