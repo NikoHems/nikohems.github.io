@@ -594,19 +594,18 @@ section .container {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   position: relative;
-  background: #fff;
+  background: #5578ff; /* Blue background */
   border-radius: 10px;
-  background: #09203a; /* Adjust this to the color you need */
 }
 
 .testimonial-item p {
-  color: #fff; /* Ensure the text color is readable against the background */
+  color: #ffffff; /* White font */
 }
 
 .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
-  border: 6px solid #fff;
+  border: 6px solid #5578ff; /* Match the background color */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -617,24 +616,26 @@ section .container {
   font-size: 18px;
   font-weight: 700;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #ffffff; /* White font */
 }
 
 .testimonial-item h4 {
   font-size: 14px;
-  color: #ccc;
+  color: #cccccc; /* Light grey for contrast */
   margin: 0;
 }
 
 .quote-icon-left, .quote-icon-right {
-  color: #fff;
+  color: #ffffff; /* White font */
   font-size: 26px;
+  opacity: 0.6; /* Slight opacity for visual appeal */
 }
 
 /* Ensure the quotes have some opacity to stand out less */
 .quote-icon-left, .quote-icon-right {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
 }
+
 
 
 
