@@ -594,7 +594,7 @@ section .container {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   position: relative;
-  background: #5578ff; /* Blue background */
+  background: #09203a; /* Blue background */
   border-radius: 10px;
 }
 
@@ -605,7 +605,7 @@ section .container {
 .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
-  border: 6px solid #5578ff; /* Match the background color */
+  border: 6px solid #09203a; /* Match the background color */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
